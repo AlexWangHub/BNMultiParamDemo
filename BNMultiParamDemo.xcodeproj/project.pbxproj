@@ -16,6 +16,8 @@
 		B843BE1B26BE5EA60028E6C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B843BE1A26BE5EA60028E6C0 /* main.m */; };
 		B843BE2526BE5EA60028E6C0 /* BNMultiParamDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B843BE2426BE5EA60028E6C0 /* BNMultiParamDemoTests.m */; };
 		B843BE3026BE5EA60028E6C0 /* BNMultiParamDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B843BE2F26BE5EA60028E6C0 /* BNMultiParamDemoUITests.m */; };
+		B843BE3F26BE5EBD0028E6C0 /* BNMultiParamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B843BE3E26BE5EBD0028E6C0 /* BNMultiParamViewController.m */; };
+		B843BE4226BE63160028E6C0 /* BNParamsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B843BE4126BE63160028E6C0 /* BNParamsModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		B843BE2B26BE5EA60028E6C0 /* BNMultiParamDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BNMultiParamDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B843BE2F26BE5EA60028E6C0 /* BNMultiParamDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNMultiParamDemoUITests.m; sourceTree = "<group>"; };
 		B843BE3126BE5EA60028E6C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B843BE3D26BE5EBD0028E6C0 /* BNMultiParamViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNMultiParamViewController.h; sourceTree = "<group>"; };
+		B843BE3E26BE5EBD0028E6C0 /* BNMultiParamViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNMultiParamViewController.m; sourceTree = "<group>"; };
+		B843BE4026BE63160028E6C0 /* BNParamsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNParamsModel.h; sourceTree = "<group>"; };
+		B843BE4126BE63160028E6C0 /* BNParamsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNParamsModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,10 @@
 				B843BE1626BE5EA60028E6C0 /* LaunchScreen.storyboard */,
 				B843BE1926BE5EA60028E6C0 /* Info.plist */,
 				B843BE1A26BE5EA60028E6C0 /* main.m */,
+				B843BE3D26BE5EBD0028E6C0 /* BNMultiParamViewController.h */,
+				B843BE3E26BE5EBD0028E6C0 /* BNMultiParamViewController.m */,
+				B843BE4026BE63160028E6C0 /* BNParamsModel.h */,
+				B843BE4126BE63160028E6C0 /* BNParamsModel.m */,
 			);
 			path = BNMultiParamDemo;
 			sourceTree = "<group>";
@@ -267,6 +277,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B843BE1026BE5EA50028E6C0 /* ViewController.m in Sources */,
+				B843BE4226BE63160028E6C0 /* BNParamsModel.m in Sources */,
+				B843BE3F26BE5EBD0028E6C0 /* BNMultiParamViewController.m in Sources */,
 				B843BE0A26BE5EA50028E6C0 /* AppDelegate.m in Sources */,
 				B843BE1B26BE5EA60028E6C0 /* main.m in Sources */,
 				B843BE0D26BE5EA50028E6C0 /* SceneDelegate.m in Sources */,
